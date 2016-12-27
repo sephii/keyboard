@@ -59,6 +59,8 @@ xkb_symbols "dvpf" {
 
     // lower row, left side
     key <AB01> { [ apostrophe,      quotedbl,       dead_acute                  ] };
+    key <SPCE> { [ space,           space,          nobreakspace,    U202F      ] };
+
 
     // do NOT hardcode this switch; use lv3:ralt_switch option instead!
     //include "level3(ralt_switch)"
