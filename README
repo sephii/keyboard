@@ -1,0 +1,2 @@
+Keyboard definition based on the programmer dvorak (dvp) layout. To install it
+edit the `/usr/share/X11/xkb/symbols/us` file and add the definition.
