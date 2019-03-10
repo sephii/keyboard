@@ -19,5 +19,7 @@ xkb_symbols "dvp-alt-intl" {
     key <AB04> { [         k,       K,      ugrave, Ugrave ] };
     key <AB05> { [         x,       X,  idiaeresis, Idiaeresis ] };
 
+    key <SPCE> { [     space,   space,nobreakspace, U202F      ] };
+
     include "level3(ralt_switch)"
 };
